@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: "Introduction"
 description: "Welcome to the home of your new documentation"
 ---
 
@@ -8,6 +8,7 @@ description: "Welcome to the home of your new documentation"
   src="/images/hero-light.png"
   alt="Hero Light"
 />
+
 <img
   className="hidden dark:block"
   src="/images/hero-dark.png"
@@ -18,54 +19,69 @@ description: "Welcome to the home of your new documentation"
 
 The first step to world-class documentation is setting up your editing environments.
 
-<CardGroup cols={2}>
-  <Card
-    title="Edit Your Docs"
-    icon="pen-to-square"
-    href="https://mintlify.com/docs/quickstart"
-  >
-    Get your docs set up locally for easy development
+<CardGroup cols={3}>
+  <Card title="Alstate Tutorial" icon="car" iconType="sharp-solid" href="https://www.allstate.com/resources/car-insurance/how-to-change-a-flat-tire">
+    Here is a tutorial on how to change a flat on allstate
   </Card>
-  <Card
-    title="Preview Changes"
-    icon="image"
-    href="https://mintlify.com/docs/development"
-  >
-    Preview your changes before you push to make sure they're perfect
+  <Card title="Get a tire" icon="tire" href="https://mintlify.com/docs/development">
+    # Heres a place to get tires
   </Card>
 </CardGroup>
 
-## Make it yours
+## Now lets get starts
 
-Update your docs to your brand and add valuable content for the best user conversion.
+<Info>
+  There are many ways yo change a tire, here is what allstate reccomends
+</Info>
 
-<CardGroup cols={2}>
-  <Card
-    title="Customize Style"
-    icon="palette"
-    href="https://mintlify.com/docs/settings/global"
-  >
-    Customize your docs to your company's colors and brands
-  </Card>
-  <Card
-    title="Reference APIs"
-    icon="code"
-    href="https://mintlify.com/docs/api-playground/openapi"
-  >
-    Automatically generate endpoints from an OpenAPI spec
-  </Card>
-  <Card
-    title="Add Components"
-    icon="screwdriver-wrench"
-    href="https://mintlify.com/docs/content/components/accordions"
-  >
-    Build interactive features and designs to guide your users
-  </Card>
-  <Card
-    title="Get Inspiration"
-    icon="stars"
-    href="https://mintlify.com/customers"
-  >
-    Check out our showcase of our favorite documentation
-  </Card>
-</CardGroup>
+<Steps>
+  <Step title="Park in a safe location" icon="circle-parking">
+    If you have a flat, stop somewhere safe. The best area is away from traffic, on a flat, firm surface — not somewhere that has grass or soft dirt — and not in a blind spot or curve, advises [Consumer Reports](https://www.consumerreports.org/cars/tire-buying-maintenance/how-to-change-a-car-tire-a2760414554/). Be sure to engage the parking or emergency brake and turn on your hazard lights, even during the day, to help other drivers see you.
+  </Step>
+  <Step title="Gather tools and supplies" icon="toolbox">
+    You’ll typically need the following tools to change a flat tire:
+
+    <Accordion title="Tools" icon="sparkles">
+      - Car jack
+      - Lug wrench
+      - Spare tire
+      - Your car’s owner’s manual
+    </Accordion>
+  </Step>
+  <Step title="Loosen the lug nuts" icon="screwdriver">
+    Lug nuts are screwed onto the bolts and hold the wheels in place. Use your lug wrench and loosen — but do not remove — the lug nuts, [Pep Boys](https://www.pepboys.com/car-care/tire-care/changing-flat-tire) advises. Do this while the car is still on the ground, as the lug nuts may be on so tight that you have to use your body weight to loosen them. Keep in mind that if you have wheel locks on the tires, you may need to use a special adapter to remove them.
+
+    If you don’t see your lug nuts, they may be behind a hub cap. You’ll need to unscrew or pry it off with a flathead screwdriver or the end of your lug wrench to pop it off, says [Popular Mechanics](https://www.popularmechanics.com/cars/how-to/a5855/how-to-change-a-flat-tire/). Again, you should reference your car’s owner’s manual to see how to remove your car’s hubcaps so you don’t hurt yourself or damage the rim.
+  </Step>
+  <Step title="Code examples">
+    <RequestExample>
+
+    ```c++ ex
+    // add code here
+    int x = 1;
+    ```
+
+    </RequestExample>
+  </Step>
+  <Step title="New Step">
+    <ResponseExample>
+
+    ```python ex
+    // add code here
+    for x in list:
+    	x+1
+    ```
+
+    
+    ``` ex2
+    
+    ```
+
+    </ResponseExample>
+  </Step>
+  <Step title="New Step">
+    ```python list
+    list = [1,2,3,4]
+    ```
+  </Step>
+</Steps>
